@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "email": "user@example.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Підготувати звіт",
+      "description": "Test zvit45",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-05-01T10:00",
+      "reminderEmail": "maksym.bielei@nure.ua",
+      "ownerId": 2,
+      "createdAt": "2026-04-26T10:00:00.000Z",
+      "updatedAt": "2026-04-26T20:32:28.404Z"
+    },
+    {
+      "id": 2,
+      "title": "Перевірити CRUD",
+      "description": "Перевірити створення, редагування, видалення та перегляд деталей",
+      "status": "done",
+      "priority": "medium",
+      "dueDate": "2026-04-30T12:00",
+      "reminderEmail": "admin@example.com",
+      "ownerId": 1,
+      "createdAt": "2026-04-26T11:00:00.000Z",
+      "updatedAt": "2026-04-26T20:31:07.979Z"
+    }
+  ]
+}
